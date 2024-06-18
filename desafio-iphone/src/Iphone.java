@@ -7,8 +7,8 @@ public class Iphone {
         //Exemplos
         //Testando Reprodutor Musical
         System.out.println("Testando ReprodutorMusical:");
-        iphone15.tocar();
         iphone15.selecionarMusica("It's Ok - Tom Rosenthal");
+        iphone15.tocar();
         iphone15.pausar();
 
         //Testando Aparelho Telefônico
@@ -19,8 +19,8 @@ public class Iphone {
 
         //Testanto Navegador na Internet
         System.out.println("\nTestando NavegadorInternet:");
-        iphone15.adicionarNovaAba();
         iphone15.exibirPagina("https://web.dio.me/");
+        iphone15.adicionarNovaAba();
         iphone15.atualizarPagina();
     }
 }
