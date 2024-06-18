@@ -4,7 +4,7 @@ public class Phone implements ReprodutorMusical, AparelhoTelefonico, NavegadorIn
     
     @Override
     public void tocar() {
-        System.out.println("Reprodutor ligado.");
+        System.out.println("Tocando música");
     }
 
     @Override
